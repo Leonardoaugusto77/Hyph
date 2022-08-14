@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo-endereço{
+    background-color: #EE5354;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+#logo{
+    width: 50px;
+    margin-top: 25px;
+    margin-right: 850px;
+    left: 40px
+}
