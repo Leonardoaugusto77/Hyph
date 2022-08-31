@@ -3,18 +3,52 @@
     padding: 0px;
 }
 
-#Slider{
-    background-color: aqua;
-    width: 100%;
-    height: 330px;
+body{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 
+#logo-ende{
+    width: 100%;
+    height: 65px;
+    background-color: #EE5354;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo-ende > p{
+    font-size: 15px;
+}
+
+#logo{
+    width: 60px;
+}
+
+#local{
+    width: 25px;
+    margin-bottom: -10px;
+}
+
+#local, a{
+    text-decoration: none;
+    color: white;
+}
+
+#local, a:hover{
+    color: blue;
+    text-shadow: 15px 15px 15px 15px #000;
+}
+
+
 .equipe{
-    width: auto;
     display: flex;  
     flex-direction: row;
     justify-content: space-around;
     margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .circle{
     width: 120px;
@@ -23,8 +57,62 @@
     background-color: red;
 }
 
+.nome{
+    display: block;
+    color: black;
+    position: absolute;
+    padding: 5px;
+    bottom: 50px;
+    text-align: center;
+    
+}
+
+
+
 .titulo-01{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #000;
+}
+
+.titulo-02{
+    text-align: center;
+}
+
+.icons{
+    margin-top: 5px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    background-color: #EE5354;
+}
+
+.info > img{
+    width: 400px;
+    height: 400px;
+    margin-top: 5px;
+    border-radius: 45px;
+    border: 5px solid #000;
+}
+
+h2{
+    color: #000;
+}
+
+#Slider{
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #000;
+}
+
+#arrows{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
 }
