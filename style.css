@@ -1,107 +1,232 @@
 *{
     margin: 0px;
     padding: 0px;
+    color: #000;
 }
 
 body{
-    font-size: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-}
-
-#logo-ende{
-    width: 100%;
-    height: 65px;
-    background-color: #EE5354;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#logo-ende > p{
-    font-size: 15px;
-}
-
-#logo{
-    width: 60px;
-}
-
-#local{
-    width: 25px;
-    margin-bottom: -10px;
-}
-
-#local, a{
-    text-decoration: none;
-    color: white;
-}
-
-#local, a:hover{
-    color: blue;
-    text-shadow: 15px 15px 15px 15px #000;
-}
-
-
-.equipe{
-    display: flex;  
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 10px;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.circle{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background-color: red;
-}
-
-.nome{
-    display: block;
-    color: black;
-    position: absolute;
-    padding: 5px;
-    bottom: 50px;
-    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
 
+.conteiner{
+    width: 100%;
+    height: 100;
+    background-color: #EE5354;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
 
-.titulo-01{
+#logo{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    color: #fff;
+    
+
+}
+#local{
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+    color: #fff;
+}
+
+
+#logo > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#logo > a:hover{
+    cursor: pointer;
+    color: #00ffc3;
+    
+}
+
+#local > a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+#local > a:hover{
+    cursor: pointer;
+    stroke: 5px;
+    color: #00ffc3;
+}
+
+.icones:hover{
+    filter: grayscale(60%);
+    
+}
+
+.titulo{
+       text-align: center;
+       font-size: 20px;
+}
+
+.titulo img{
+    width: 35px;
+    padding: 35px;
+}
+
+
+.titulo img{
+    padding: 5px;
+}
+
+.circle{
+    width:  200px;
+    height: 200px;
+    margin: 70px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.membros{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #000;
 }
 
-.titulo-02{
-    text-align: center;
+.equipe{
+    display: flex;
+    justify-content: center;
 }
 
-.icons{
-    margin-top: 5px;
+.equipe p{
+    margin-top: -35px;
 }
 
-.info{
+.redes{
+   margin: 10px;
+   padding: 5px;
+   letter-spacing: 5px;
+   
+}
+
+.container{
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    height: 500px;
     background-color: #EE5354;
+    width: 100%;
+    height: 550px;
 }
 
-.info > img{
-    width: 400px;
-    height: 400px;
-    margin-top: 5px;
-    border-radius: 45px;
-    border: 5px solid #000;
+.img {
+    
+       display: flex;
+       align-items: ;
+}
+
+.img > img{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    border-radius: 45px ;
+    border: 3px solid #000;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-sizing: border-box;
+}
+
+.conteudo{
+    text-align: left;
+    padding: 5pc;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+#line{
+    display: flex;
+    width: 390px;
+    height: 5px;
+    background-color: #000;
+    margin-bottom: 5px
+
+}
+
+
+
+.conteudo > h2{
+    font-size: 65px;
 }
 
 h2{
     color: #000;
+}
+
+
+.container-sede{
+    display: flex;
+    justify-content: space-around;
+    width: 680px;
+    height: 380px;
+    background-color: #000;
+    margin: auto;
+    border-radius: 107.568px;
+    margin-top: 65px;
+}
+
+.nossa-sede{
+    background-color:#551111;
+    width: 370px;
+    height: 380px;
+    border-radius: 72.568px;
+}
+
+.map{
+    background-color: rgb(177, 27, 77);
+    width: 310px;
+    height: 300px;
+    border-radius: 72.568px;
+
+}
+
+.line-02{
+    margin: auto;
+    box-sizing: border-box;
+    width: 315px;
+    border: 10.6973px solid #FFFFFF;
+    height: 285px;
+    margin-top: 60px;
+}
+
+.line-02 h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.line-02 p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.img-link img{
+    width: 250px;
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#linha-sede{
+    margin: auto;
+    width: 155px;
+    height: 5px;
+    background-color: #EE5354;
+}
+
+
+#line-03{
+    background-color: #00ffc3;
+    width: 100px;
+    height: 200px;
+
 }
 
 #Slider{
@@ -113,6 +238,9 @@ h2{
 
 #arrows{
     display: flex;
-    margin-bottom: 15px;
     justify-content: space-between;
+    line-height: 50%;
+    align-items: center;
+
 }
+
