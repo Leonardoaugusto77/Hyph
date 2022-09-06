@@ -164,9 +164,9 @@ h2{
 .container-sede{
     display: flex;
     justify-content: space-around;
-    width: 680px;
+    width: 780px;
     height: 380px;
-    background-color: #000;
+    background-color: #551111;
     margin: auto;
     border-radius: 107.568px;
     margin-top: 65px;
@@ -174,27 +174,33 @@ h2{
 
 .nossa-sede{
     background-color:#551111;
-    width: 370px;
+    width: 400px;
     height: 380px;
     border-radius: 72.568px;
 }
 
 .map{
-    background-color: rgb(177, 27, 77);
-    width: 310px;
-    height: 300px;
+    width: 400px;
+    height: 380px;
     border-radius: 72.568px;
 
 }
+.map > iframe{
+    border-radius: 72.568px;
+}
+
 
 .line-02{
     margin: auto;
     box-sizing: border-box;
-    width: 315px;
-    border: 10.6973px solid #FFFFFF;
-    height: 285px;
-    margin-top: 60px;
+    width: 340px;
+    border: 4.6973px solid #FFFFFF;
+    height: 280px;
+    margin-top: 55px;
 }
+
+
+
 
 .line-02 h2{
     text-align: center;
@@ -241,6 +247,4 @@ h2{
     justify-content: space-between;
     line-height: 50%;
     align-items: center;
-
-}
 
