@@ -112,7 +112,7 @@ body{
 .img {
     
        display: flex;
-       align-items: ;
+       align-items: center;
 }
 
 .img > img{
@@ -189,17 +189,22 @@ footer{
 
 .footer-container{
     display: flex;
+    position: relative;
     height: 65px;
     align-items: center;
     margin-top: 50px;
     margin-right: 10%;
     margin-left: 10%;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #Dev a{
     text-decoration: none;
     font-size: 20px;
+}
+#topbtn{
+    position: absolute;
+    right: 0;
 }
 
 #topbtn button{
