@@ -28,16 +28,28 @@ function inicia(){
     MaxImg = imgs.length-1
     slider = document.getElementById("Slider")
     carregaimgs(imgAtual)
-    tempoTroca = 3000
-    tmp = setInterval(troca, tempoTroca)
+    tempoTroca = 0
+    anima()
 }
 
-function troca(){
-    imgAtual++
+function troca(dir){
+    tempoTroca = 0
+    imgAtual+=dir
     if(imgAtual > MaxImg){
         imgAtual = 0
-    }
+    } else if(imgAtual < 0){
+    imgAtual = MaxImg
+}
     carregaimgs(imgAtual)
+}
+
+function anima(){
+    tempoTroca++
+    if(tempoTroca >= 300){
+        tempoTroca = 0
+        troca(1)
+    }
+    window.requestAnimationFrame(anima)
 }
 
 
