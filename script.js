@@ -7,9 +7,9 @@ var tempoTroca
 function Preload(){
     var s=1   
     
-    for(let i = 0; i < 5; i ++){
+    for(let i = 0; i < 4; i ++){
     imgs[i] = new Image()
-    imgs[i].src= "imgs/s"+s+".jpg"
+    imgs[i].src= "imgs/s"+s+".png"
     s++
     }
 }
@@ -55,3 +55,9 @@ function anima(){
 
 window.addEventListener("load", inicia)
 
+
+let btntop = document.getElementById("btntop")
+
+btntop.addEventListener("click", ()=>{
+    window.scrollTo(0, 0)
+} )
