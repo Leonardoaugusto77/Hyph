@@ -325,11 +325,7 @@ footer{
 }
 
 
-/*  
-
-Responsividade
-
-*/
+/*Responsividade*/
 
 @media screen and (max-width: 375px){
     .conteiner-header{
