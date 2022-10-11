@@ -113,7 +113,6 @@ body{
 
 .img {
     align-items: center !important;
-    width: 50%;
     text-align: center;
     margin: 0 auto;
 }
@@ -121,7 +120,7 @@ body{
 .img > img{
     display: flex;
     align-items: center;
-    width: 410px;
+    width: 420px;
     border-radius: 45px;
     border: 3px solid #000;
     margin-left: 10%;
@@ -137,6 +136,11 @@ body{
     font-size: 25px;
     width: 55%;
     padding-right: 90px;
+}
+
+.textC{
+    width: 100%;
+    margin-left: 4rem;
 }
 
 #line{
@@ -228,11 +232,29 @@ footer{
 
 
 
-
-.line-02 h2{
-    text-align: center;
-    font-size: 30px;
+#linha{
+  
+    font-size: 60px;
+    border-bottom: 5px solid #000;
+    width: 360px;
+    
 }
+
+.div-nossaS{
+    text-align: center;
+    color: white;
+    
+}
+
+.div-nossaS > h2{
+    color: white;
+    font-size: 25px;    
+    border-bottom: 3px solid #EE5354;
+    width: 127px;
+    margin: auto;
+}
+
+
 
 .line-02 p{
     font-size: 18px;
