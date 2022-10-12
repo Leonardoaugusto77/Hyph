@@ -424,7 +424,26 @@ footer{
         box-sizing: border-box;
     }
 
+    .conteudo{
+        font-size: 20px;
+
+    }
+
+    .textC{
+        width: 211%;
+        margin-left: 3rem;
+    }
+
+    #linha{
+        font-size: 35px;
+       
+        border-bottom: 5px solid #000;
+        width: 210px;
+        margin-top: 25px;
+        margin-left:30px;
+        margin-bottom: 15px;
     
+    }  
 
 
  
