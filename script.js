@@ -17,9 +17,6 @@ function Preload(){
 
 function carregaimgs(img){
     slider.style.backgroundImage = "url('"+imgs[img].src+"')"
-
-
-
 }
 
 function inicia(){
